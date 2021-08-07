@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB2EA9ED26BE492B00D9DEA9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EA9EC26BE492B00D9DEA9 /* Post.swift */; };
+		AB2EA9F126BE4FB300D9DEA9 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EA9EF26BE4FB300D9DEA9 /* PostTableViewCell.swift */; };
+		AB2EA9F226BE4FB300D9DEA9 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB2EA9F026BE4FB300D9DEA9 /* PostTableViewCell.xib */; };
 		ABDF905526BD17E2006EC4E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDF905426BD17E2006EC4E6 /* AppDelegate.swift */; };
 		ABDF905726BD17E2006EC4E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDF905626BD17E2006EC4E6 /* SceneDelegate.swift */; };
 		ABDF905C26BD17E2006EC4E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDF905A26BD17E2006EC4E6 /* Main.storyboard */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB2EA9EC26BE492B00D9DEA9 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		AB2EA9EF26BE4FB300D9DEA9 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		AB2EA9F026BE4FB300D9DEA9 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		ABDF905126BD17E2006EC4E6 /* InstagramOwn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramOwn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABDF905426BD17E2006EC4E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABDF905626BD17E2006EC4E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +57,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB2EA9EB26BE490900D9DEA9 /* Inctance */ = {
+			isa = PBXGroup;
+			children = (
+				AB2EA9EC26BE492B00D9DEA9 /* Post.swift */,
+			);
+			path = Inctance;
+			sourceTree = "<group>";
+		};
+		AB2EA9EE26BE4F8900D9DEA9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AB2EA9EF26BE4FB300D9DEA9 /* PostTableViewCell.swift */,
+				AB2EA9F026BE4FB300D9DEA9 /* PostTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		ABDF904826BD17E2006EC4E6 = {
 			isa = PBXGroup;
 			children = (
@@ -70,7 +93,9 @@
 		ABDF905326BD17E2006EC4E6 /* InstagramOwn */ = {
 			isa = PBXGroup;
 			children = (
+				AB2EA9EE26BE4F8900D9DEA9 /* Cell */,
 				ABDF907A26BD18BF006EC4E6 /* extra */,
+				AB2EA9EB26BE490900D9DEA9 /* Inctance */,
 				ABDF906C26BD184D006EC4E6 /* controllers */,
 				ABDF905426BD17E2006EC4E6 /* AppDelegate.swift */,
 				ABDF905626BD17E2006EC4E6 /* SceneDelegate.swift */,
@@ -98,9 +123,9 @@
 				ABDF906E26BD1886006EC4E6 /* HomeViewController.swift */,
 				ABDF907226BD18A1006EC4E6 /* ViewController1.swift */,
 				ABDF907626BD18B1006EC4E6 /* ViewController2.swift */,
-				ABDF907726BD18B1006EC4E6 /* ViewController2.xib */,
-				ABDF907326BD18A1006EC4E6 /* ViewController1.xib */,
 				ABDF906F26BD1886006EC4E6 /* HomeViewController.xib */,
+				ABDF907326BD18A1006EC4E6 /* ViewController1.xib */,
+				ABDF907726BD18B1006EC4E6 /* ViewController2.xib */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -173,6 +198,7 @@
 				ABDF907526BD18A1006EC4E6 /* ViewController1.xib in Resources */,
 				ABDF906126BD17E2006EC4E6 /* Assets.xcassets in Resources */,
 				ABDF907926BD18B1006EC4E6 /* ViewController2.xib in Resources */,
+				AB2EA9F226BE4FB300D9DEA9 /* PostTableViewCell.xib in Resources */,
 				ABDF905C26BD17E2006EC4E6 /* Main.storyboard in Resources */,
 				ABDF907126BD1886006EC4E6 /* HomeViewController.xib in Resources */,
 			);
@@ -190,8 +216,10 @@
 				ABDF907426BD18A1006EC4E6 /* ViewController1.swift in Sources */,
 				ABDF905726BD17E2006EC4E6 /* SceneDelegate.swift in Sources */,
 				ABDF905F26BD17E2006EC4E6 /* InstagramOwn.xcdatamodeld in Sources */,
+				AB2EA9ED26BE492B00D9DEA9 /* Post.swift in Sources */,
 				ABDF907026BD1886006EC4E6 /* HomeViewController.swift in Sources */,
 				ABDF907826BD18B1006EC4E6 /* ViewController2.swift in Sources */,
+				AB2EA9F126BE4FB300D9DEA9 /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
