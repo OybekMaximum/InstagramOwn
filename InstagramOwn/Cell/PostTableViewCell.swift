@@ -11,8 +11,8 @@ class PostTableViewCell: UITableViewCell {
     
     @IBOutlet var profileImageView: UIImageView!
     @IBOutlet var fullnameLaber: UILabel!
-    @IBOutlet var postImageView: UIImageView!
-    
+    @IBOutlet var PostImage1: UIImageView!
+    @IBOutlet var postImage2: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

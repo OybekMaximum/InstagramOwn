@@ -24,8 +24,8 @@ class HomeViewController: BaseClassViewController, UITableViewDelegate, UITableV
         tableViewController.delegate = self
         navigationSettings()
         
-        items.append(Post(fullname: "Sarah", user_img: "person1", post_img: "nature"))
-        items.append(Post(fullname: "Dua ", user_img: "person2", post_img: "nature1"))
+        items.append(Post(fullname: "Taylor Swift", user_img: "person1", post_img: "nature2",post_img2: "nature1"))
+        items.append(Post(fullname: "Dua Lipa", user_img: "person2", post_img: "nature1",post_img2: "nature2"))
         }
     
     func navigationSettings() {
@@ -45,11 +45,14 @@ class HomeViewController: BaseClassViewController, UITableViewDelegate, UITableV
          let cell = Bundle.main.loadNibNamed("PostTableViewCell", owner: self, options: nil)?.first as! PostTableViewCell
         cell.fullnameLaber.text = item.fullname
         cell.profileImageView.image = UIImage(named: item.user_img!)
-        cell.postImageView.image = UIImage(named: item.post_img!)
+        cell.PostImage1.image = UIImage(named: item.post_img!)
+        cell.postImage2.image = UIImage(named: item.post_img2!)
+//        cell.postImageView.image = UIImage(named: item.post_img!)
          return cell
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath)->CGFloat{
-        return 450
+        return 700
+        
     }
     
     // Actions

@@ -94,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				AB2EA9EE26BE4F8900D9DEA9 /* Cell */,
-				ABDF907A26BD18BF006EC4E6 /* extra */,
 				AB2EA9EB26BE490900D9DEA9 /* Inctance */,
 				ABDF906C26BD184D006EC4E6 /* controllers */,
 				ABDF905426BD17E2006EC4E6 /* AppDelegate.swift */,
@@ -128,13 +127,6 @@
 				ABDF907726BD18B1006EC4E6 /* ViewController2.xib */,
 			);
 			path = controllers;
-			sourceTree = "<group>";
-		};
-		ABDF907A26BD18BF006EC4E6 /* extra */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = extra;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
